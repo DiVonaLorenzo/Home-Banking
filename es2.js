@@ -15,7 +15,7 @@ function showData() {
     const data = new Date();
     const year = data.getFullYear();
     const month = data.getMonth() + 1;
-    const day = data.getDay();
+    const day = data.getDate();
     const hours = data.getHours();
     const minutes = data.getMinutes();
     const seconds = data.getSeconds();
